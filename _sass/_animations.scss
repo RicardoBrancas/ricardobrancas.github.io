@@ -19,3 +19,13 @@
     opacity: 1;
   }
 }
+
+.blinking {
+  animation: blink 1.5s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

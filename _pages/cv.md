@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -13,31 +12,18 @@ Education
 ======
 * B.S. in Computer Science, Técnico Lisboa, 2015-2018
 * M.S. in Computer Science, Técnico Lisboa, 2018-2020
+* Ph.D. in Computer Science, Técnico Lisboa, 2021-present
 
 Work experience
 ======
 * Fall 2019 - Fall 2020: Research Intern
-  * OutSystems
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * [OutSystems](https://www.outsystems.com/)
+* Fall 2019 - Present: Early Stage Researcher
+  * [INESC-ID](https://www.inesc-id.pt/)
   
-Skills
+TA
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Fall 2020: [Artificial Intelligence](https://fenix.tecnico.ulisboa.pt/disciplinas/IArt45179577/2020-2021/1-semestre)
+* Spring 2021: [Compilers](https://fenix.tecnico.ulisboa.pt/disciplinas/Com5645111326246/2020-2021/2-semestre)
+* Fall 2021: [Algorithms For Computational Logic](https://fenix.tecnico.ulisboa.pt/disciplinas/ALC/2021-2022/1-semestre)
+* Spring 2022: [Compilers](https://fenix.tecnico.ulisboa.pt/disciplinas/Com/2021-2022/2-semestre)

@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Ricardo Brancas"
   avatar           : "profile.jpg"
-  bio              : "PhD Student @ Técnico Lisboa/CMU"
-  location         : "Pittsburgh"
+  bio              : "PhD Student @ Técnico Lisboa"
+  location         : "Currently in Pittsburgh"
   employer         :
   pubmed           :
   googlescholar    :
-  email            :
+  email            : "ricardo.brancas@tecnico.ulisboa.pt"
   researchgate     :
   uri              :
   bitbucket        :
@@ -102,8 +102,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "ricardo-brancas"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -146,6 +146,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - .idea
 keep_files:
   - .git
   - .svn
