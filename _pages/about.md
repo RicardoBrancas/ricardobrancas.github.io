@@ -9,6 +9,12 @@ redirect_from:
 
 Hi! I am a Computer Science PhD Student on the CMU Portugal Affiliated PhD Program. My advisors are [Vasco Manquinho](https://sat.inesc-id.pt/~vmm/research/index.html) at Instituto Superior Técnico, Lisboa and [Ruben Martins](https://sat-group.github.io/ruben/) at Carnegie Mellon University. My research focuses on helping programmers and non-programmes on their daily tasks, by leveraging Program Synthesis and Program Repair techniques. Some of my other research interests include Formal Methods and Compilers. Feel free to talk to me about any of these topics!
 
+# Publications
+
+{% for post in site.publications reversed %}
+    {% include archive-single.html %}
+{% endfor %}
+
 # Projects
 
 ## FormHe
