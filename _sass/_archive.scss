@@ -63,7 +63,8 @@
 }
 
 .archive__item-excerpt {
-  margin-top: 0;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
   //font-size: $type-size-6;
 
   & + p {
@@ -85,6 +86,11 @@
   }
 }
 
+.archive__item {
+  .btn {
+    padding: 0.4em 0.9em;
+  }
+}
 
 /*
    List view
