@@ -19,7 +19,7 @@ Hi! I am a Computer Science PhD Student on the CMU Portugal Affiliated PhD Progr
 
 ## ProFix
 
-ProFix is an ongoing project that aims to help students taking classes on Logic Programming, particularly in Prolog.
+ProFix is an ongoing project that aims to help students taking classes on Logic Programming.
 In the first stage of this project we are surveying students to find the most common problems and difficulties with learning Prolog.
 
 ## FormHe
