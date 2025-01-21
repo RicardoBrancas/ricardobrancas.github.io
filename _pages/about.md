@@ -17,6 +17,11 @@ Hi! I am a Computer Science PhD Student on the CMU Portugal Affiliated PhD Progr
 
 # Projects
 
+## ProFix
+
+ProFix is an ongoing project that aims to help students taking classes on Logic Programming, particularly in Prolog.
+In the first stage of this project we are surveying students to find the most common problems and difficulties with learning Prolog.
+
 ## FormHe
 
 FormHe is a tool which helps users find and fix problems in ASP programs. FormHe is composed of two modules: a fault localizer module and a program repair module. The fault localizer identifies which statements of the program need to be changed/removed, based on an exemplifying query provided by the user. Then, FormHe provides the user with suggestions for how to fix the identified problems using program synthesis techniques.
