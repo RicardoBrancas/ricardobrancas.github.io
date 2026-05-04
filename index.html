@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ricardo Brancas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Ricardo Brancas — PhD Student at Técnico Lisboa. Research on Program Synthesis and Program Repair.">
+<meta name="google-site-verification" content="SaTOp3AB4z-bOHpUTLo5GWyCMyQjn0vhCryevu_0yHY">
+<link rel="canonical" href="https://www.ricardobrancas.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<nav class="top">
+  <span class="mark">RB</span>
+  <div class="links">
+    <a href="/">Home</a>
+    <a href="#publications">Work</a>
+    <a href="/cv.html">CV</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div>
+    <h1>Ricardo <em>Brancas</em></h1>
+    <p class="tagline">PhD candidate in <em>Computer Science</em> · Lisbon</p>
+    <div class="contact">
+      <a href="mailto:ricardo.brancas@tecnico.ulisboa.pt">Email</a>
+      <a href="https://scholar.google.com/citations?user=6shnOmsAAAAJ">Scholar</a>
+      <a href="https://orcid.org/0000-0001-7006-9829">ORCID</a>
+      <a href="https://github.com/ricardobrancas">GitHub</a>
+      <a href="https://www.linkedin.com/in/ricardo-brancas">LinkedIn</a>
+    </div>
+  </div>
+  <img class="photo" src="images/profile.jpg" alt="Ricardo Brancas">
+</header>
+
+<section class="about">
+  <h2 class="section">About</h2>
+  <p>
+    I'm a Computer Science PhD student in the <em>CMU Portugal Affiliated PhD Program</em>, advised by
+    <a href="https://sat.inesc-id.pt/~vmm/research/index.html">Vasco Manquinho</a> at Instituto Superior Técnico
+    and <a href="https://sat-group.github.io/ruben/">Ruben Martins</a> at Carnegie Mellon University.
+    My research helps programmers — and non-programmers — get through their daily work, by leaning on
+    <em>program synthesis</em> and <em>program repair</em>. I'm also drawn to formal methods and compilers.
+    Always happy to talk about any of it.
+  </p>
+</section>
+
+<section id="publications">
+  <h2 class="section">Selected Publications</h2>
+
+  <article class="pub">
+    <div class="year">2025</div>
+    <div class="body">
+      <h3 class="title">Combining Logic and Large Language Models for Assisted Debugging and Repair of ASP Programs <span class="venue">— ICST 2025</span></h3>
+      <p class="authors"><b>Ricardo Brancas</b>, Vasco Manquinho, Ruben Martins</p>
+      <p class="excerpt">Introduces <em>FormHe</em>, a tool that pairs logic-based techniques with LLMs to detect and correct issues in Answer Set Programming submissions.</p>
+      <div class="actions">
+        <a href="files/formhe25.pdf">PDF</a>
+        <a href="https://arxiv.org/abs/2410.20962">arXiv</a>
+        <a href="https://github.com/RicardoBrancas/FormHe">Code</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="year">2024</div>
+    <div class="body">
+      <h3 class="title">Towards Reliable SQL Synthesis: Fuzzing-Based Evaluation and Disambiguation <span class="venue">— FASE 2024</span></h3>
+      <p class="authors"><b>Ricardo Brancas</b>, Miguel Terra-Neves, Miguel Ventura, Vasco Manquinho, Ruben Martins</p>
+      <p class="excerpt">Introduces <span class="smallcaps">Cubes</span>, a parallel SQL synthesizer using input/output examples and a user-guided disambiguation process — up to 60% accuracy with super-linear speedups on multicore.</p>
+      <div class="actions">
+        <a href="files/cubes24.pdf">PDF</a>
+        <a href="https://arxiv.org/abs/2203.04995">arXiv (extended)</a>
+        <a href="https://github.com/OutSystems/CUBES">Code</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="year">2023</div>
+    <div class="body">
+      <h3 class="title">On Repairing Natural Language to SQL Queries <span class="venue">— arXiv</span></h3>
+      <p class="authors">Aidan Z.H. Yang, <b>Ricardo Brancas</b>, Pedro Esteves, Sofia Aparicio, Joao Pedro Nadkarni, Miguel Terra-Neves, Vasco Manquinho, Ruben Martins</p>
+      <div class="actions">
+        <a href="files/sqlrepair23.pdf">PDF</a>
+        <a href="https://arxiv.org/abs/2310.03866">arXiv</a>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section>
+  <h2 class="section">Projects</h2>
+
+  <div class="project">
+    <h3>ProFix</h3>
+    <p>An ongoing project to support students taking Logic Programming courses. The first phase surveys students to map the most common difficulties when learning <em>Prolog</em>.</p>
+  </div>
+
+  <div class="project">
+    <h3>FormHe</h3>
+    <p>A tool that helps users find and fix problems in <em>ASP</em> programs. A fault-localization module identifies which statements are off based on an exemplifying query; a repair module then suggests fixes via program synthesis.</p>
+  </div>
+
+  <div class="project">
+    <h3><span class="smallcaps">Cubes</span></h3>
+    <p>A parallel program synthesizer for SQL queries from input/output examples. <span class="smallcaps">Cubes</span> extends sequential query synthesizers with new pruning techniques and a divide-and-conquer split of the search space.</p>
+  </div>
+</section>
+
+<footer>
+  &mdash; Lisbon &mdash;
+</footer>
+
+</div>
+</body>
+</html>
